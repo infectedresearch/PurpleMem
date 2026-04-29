@@ -1,0 +1,4 @@
+name: production
+hybrid_weight: 0.3
+topic_boost: 0.05
+notes: LongMemEval-tuned retrieval settings

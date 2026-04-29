@@ -1,0 +1,10 @@
+runs:
+  - name: raw
+    hybrid_weight: 0.0
+    topic_boost: 0.0
+  - name: hybrid
+    hybrid_weight: 0.3
+    topic_boost: 0.0
+  - name: hybrid_topic
+    hybrid_weight: 0.3
+    topic_boost: 0.05

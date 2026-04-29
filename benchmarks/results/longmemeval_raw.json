@@ -1,0 +1,58 @@
+{
+  "name": "raw",
+  "benchmark": "LongMemEval",
+  "embedding_model": "BAAI/bge-small-en",
+  "overall": {
+    "r@1": 74.0,
+    "r@3": 88.2,
+    "r@5": 92.8,
+    "r@10": 96.4,
+    "ndcg@10": 84.6
+  },
+  "per_type": {
+    "single-session-user": {
+      "r@1": 58.6,
+      "r@3": 78.6,
+      "r@5": 88.6,
+      "r@10": 97.1,
+      "ndcg@10": 77.1
+    },
+    "multi-session": {
+      "r@1": 76.7,
+      "r@3": 89.5,
+      "r@5": 95.5,
+      "r@10": 97.7,
+      "ndcg@10": 86.6
+    },
+    "single-session-preference": {
+      "r@1": 66.7,
+      "r@3": 73.3,
+      "r@5": 76.7,
+      "r@10": 90.0,
+      "ndcg@10": 76.3
+    },
+    "temporal-reasoning": {
+      "r@1": 69.2,
+      "r@3": 88.7,
+      "r@5": 92.5,
+      "r@10": 94.7,
+      "ndcg@10": 81.6
+    },
+    "knowledge-update": {
+      "r@1": 84.6,
+      "r@3": 97.4,
+      "r@5": 97.4,
+      "r@10": 97.4,
+      "ndcg@10": 91.0
+    },
+    "single-session-assistant": {
+      "r@1": 87.5,
+      "r@3": 91.1,
+      "r@5": 94.6,
+      "r@10": 98.2,
+      "ndcg@10": 92.3
+    }
+  },
+  "wall_time_s": 986.3579013347626,
+  "total_questions": 500
+}

@@ -1,0 +1,47 @@
+[
+  {
+    "id": "m_001",
+    "text": "alex likes sushi",
+    "username": "alex",
+    "memory_type": "preference",
+    "topic": "food",
+    "confidence": 0.9,
+    "evidence_count": 2,
+    "last_seen_at": 1712000000,
+    "valid_from": 1711900000,
+    "valid_to": null,
+    "subject": "alex",
+    "predicate": "likes",
+    "object_text": "sushi"
+  },
+  {
+    "id": "m_002",
+    "text": "alex plays valorant on weekends",
+    "username": "alex",
+    "memory_type": "profile",
+    "topic": "gaming",
+    "confidence": 0.85,
+    "evidence_count": 1,
+    "last_seen_at": 1712000050,
+    "valid_from": 1711900050,
+    "valid_to": null,
+    "subject": "alex",
+    "predicate": "plays",
+    "object_text": "valorant"
+  },
+  {
+    "id": "m_003",
+    "text": "maya works at google",
+    "username": "maya",
+    "memory_type": "profile",
+    "topic": "work",
+    "confidence": 0.9,
+    "evidence_count": 2,
+    "last_seen_at": 1712000100,
+    "valid_from": 1711900100,
+    "valid_to": null,
+    "subject": "maya",
+    "predicate": "works_at",
+    "object_text": "google"
+  }
+]

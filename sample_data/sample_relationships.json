@@ -1,0 +1,5 @@
+[
+  {"subject": "alex", "predicate": "likes", "object": "sushi"},
+  {"subject": "alex", "predicate": "plays", "object": "valorant"},
+  {"subject": "maya", "predicate": "works_at", "object": "google"}
+]

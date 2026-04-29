@@ -1,0 +1,51 @@
+{
+  "name": "sample_eval",
+  "overall": {
+    "count": 3,
+    "r@1": 66.7,
+    "r@3": 100.0,
+    "r@5": 100.0,
+    "r@10": 100.0,
+    "mrr": 0.833,
+    "ndcg@10": 0.877
+  },
+  "total_questions": 3,
+  "per_question": [
+    {
+      "question_id": "q_000",
+      "category": "unknown",
+      "hits": {
+        "1": true,
+        "3": true,
+        "5": true,
+        "10": true
+      },
+      "first_hit_rank": 1,
+      "ndcg@10": 1.0
+    },
+    {
+      "question_id": "q_001",
+      "category": "unknown",
+      "hits": {
+        "1": false,
+        "3": true,
+        "5": true,
+        "10": true
+      },
+      "first_hit_rank": 2,
+      "ndcg@10": 0.6309297535714575
+    },
+    {
+      "question_id": "q_002",
+      "category": "unknown",
+      "hits": {
+        "1": true,
+        "3": true,
+        "5": true,
+        "10": true
+      },
+      "first_hit_rank": 1,
+      "ndcg@10": 1.0
+    }
+  ]
+}

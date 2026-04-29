@@ -1,0 +1,12 @@
+__pycache__/
+.pytest_cache/
+.venv/
+*.pyc
+*.sqlite
+*.db
+*.egg-info/
+dist/
+build/
+.env
+uv.lock
+benchmarks/data/
