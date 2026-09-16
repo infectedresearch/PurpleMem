@@ -2,7 +2,9 @@
 
 Benchmark-first memory retrieval for long-horizon AI systems.
 
-Used daily in production on [PurpleTron](https://twitch.tv/purple_tron), a Twitch/Discord AI bot. This repo contains the retrieval core, the benchmark harness, and documented ablations.
+Used daily in production on [PurpleTron](https://twitch.tv/purple_tron), a Twitch/Discord AI bot operated as part of [Fracktron](https://fracktron.com/about/) by [infectedresearch](https://github.com/infectedresearch). This repo contains the retrieval core, the benchmark harness, and documented ablations.
+
+Public context: [About Fracktron](https://fracktron.com/about/) · [Developer hub](https://fracktron.com/developers/)
 
 ## Benchmark
 
